@@ -14,7 +14,7 @@ class Faq extends Component {
         qa: []        
     }
      componentDidMount(){
-        axios.get('http://bamkadayat.com/wp-json/wp/v2/pages/132')
+        axios.get('https://bamkadayat.com/wp-json/wp/v2/pages/132')
         .then(response =>{
             let data=response.data;
             this.setState({
