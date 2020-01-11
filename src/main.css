@@ -1,0 +1,39 @@
+.content{
+    width:100%;
+    line-height: 30px;
+    transition: 0.5s;
+}
+.wideContent{
+    height:300px;
+    transition: 0.8s all;
+}
+.btnPrimary{
+    padding:8px;
+    border-radius: 5px;
+    background: #1B1464;
+    color:#ffff;
+    cursor: pointer;
+    outline: none;
+}
+.btnPrimary:hover{
+    background: #0652DD;
+    transition: 0.5s;
+}
+.accordion__button:before{
+  position: absolute;
+  right:10%;
+  background: #27ae60;
+} 
+.accordion__button{
+  background: #27ae60;
+  outline:none;
+  color:#fff;
+}
+.accordion__button:hover{
+  background: #27ae60;
+  outline:none;
+}
+.accordion__panel p{
+  padding:8px;
+  line-height:30px;
+}
