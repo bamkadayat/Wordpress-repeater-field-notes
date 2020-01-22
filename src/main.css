@@ -21,7 +21,7 @@
 }
 .accordion__button:before{
   position: absolute;
-  right:10%;
+  right:1%;
   background: #27ae60;
 } 
 .accordion__button{
@@ -36,4 +36,7 @@
 .accordion__panel p{
   padding:8px;
   line-height:30px;
+}
+.accordion{
+position:relative;
 }
