@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Faq from './Faq';
+import Login from './loginForm';
 import './main.css'
 class App extends Component {
   constructor(props) {
@@ -10,7 +11,8 @@ class App extends Component {
   render() {
     return (
       <div className="ui container comments">
-        <Faq />        
+        <Faq /> 
+        <Login />       
       </div>
     );
   }

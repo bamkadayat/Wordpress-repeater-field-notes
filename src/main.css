@@ -22,15 +22,15 @@
 .accordion__button:before{
   position: absolute;
   right:1%;
-  background: #27ae60;
+  background: #16a085;
 } 
 .accordion__button{
-  background: #27ae60;
+  background: #16a085;
   outline:none;
   color:#fff;
 }
 .accordion__button:hover{
-  background: #27ae60;
+  background: #16a085;
   outline:none;
 }
 .accordion__panel p{
@@ -39,4 +39,20 @@
 }
 .accordion{
 position:relative;
+}
+/* Form style */
+.formDetails{
+  margin-top:20px;
+  padding:20px;
+  background:#16a085;
+}
+.formDetails h2{
+  color:#fff;
+}
+input[type=text], input[type=email], input[type=phone], textarea{
+  width:100%;
+  padding:10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  outline: none;
 }
